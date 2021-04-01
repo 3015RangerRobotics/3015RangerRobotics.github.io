@@ -36,12 +36,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3649683403');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2067583312');
       });
     }
   </script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
 
   <script>
     var firebaseConfig = {
@@ -50,9 +51,11 @@
       projectId: "frc-leaderboard",
       storageBucket: "frc-leaderboard.appspot.com",
       messagingSenderId: "350834640665",
-      appId: "1:350834640665:web:529ae34a85cb6f149aa788"
+      appId: "1:350834640665:web:529ae34a85cb6f149aa788",
+      measurementId: "G-4ZYDJS6GJ5"
     };
     firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
   </script>
 
   <script src="main.dart.js" type="application/javascript"></script>
