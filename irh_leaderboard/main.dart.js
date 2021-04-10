@@ -65087,16 +65087,16 @@ Oq:function(a){var s=this,r=H.aeR(a,null),q=t.P,p=s.a
 if(r!=null)p.c.b.hK(0,a).dV(0).bx(0,new Q.a8c(s),q)
 else p.c.C1(a,s.dx,!1).bx(0,new Q.a8d(s,a,!1),q)},
 fg:function(a){var s=this
-s.a.c.nB(s.dx,s.cy,50,a).bx(0,new Q.a87(s,a),t.P)},
+s.a.c.nB(s.dx,s.cy,25,a).bx(0,new Q.a87(s,a),t.P)},
 Cc:function(){return this.fg(!1)},
 a4y:function(){var s=null,r=this.fx==null?B.p7(s,L.mk(C.rd,s,s),s,s):B.p7(s,L.mk(C.yY,s,s),new Q.a7N(this),s),q=A.kZ(s,s,s,s,s,s,s,s,s,s,s,12,s,s,s,s,!0,s,s,s,s,s,s)
 q=L.aiT(s,new F.fS(4,K.R6(5),C.qh),s,s,s,s,s,!0,s,s,s,s,s,s,!0,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,!1,s,q,"Team # or Group Code",s,s,s,s,s,s,s,s,s,s,s)
 return T.Hi(H.b([r,new T.c9(C.yw,T.j3(new Z.xN(q,C.CQ,C.Cl,C.Cm,C.FY,new Q.a7O(this),s),40,145),s)],t.Ma),C.bJ,C.hf,C.c6,s)},
 a4v:function(){var s,r=this,q=null,p=L.mk(C.z2,q,q),o=r.cy
 p=B.p7(q,p,o===1?q:new Q.a7v(r),q)
-o=L.cr(C.f.i(o)+" - "+C.f.i(r.cy+50-1),q,q,q,q,q,q,q)
+o=L.cr(C.f.i(o)+" - "+C.f.i(r.cy+25-1),q,q,q,q,q,q,q)
 s=L.mk(C.z3,q,q)
-return T.Hi(H.b([p,o,B.p7(q,s,r.d.length<49?q:new Q.a7w(r),q)],t.Ma),C.bJ,C.rX,C.c6,q)},
+return T.Hi(H.b([p,o,B.p7(q,s,r.d.length<25?q:new Q.a7w(r),q)],t.Ma),C.bJ,C.rX,C.c6,q)},
 Pb:function(){var s=null
 if(this.f)return T.ov(new U.tM(s,s,new S.tc(C.o4,t.az),s,s,s),s,s)
 return M.dx(s,s,C.r,s,s,s,s,0,s,s,s,s,0)},
@@ -65281,7 +65281,7 @@ k=[]
 for(p=a.ghL(a),o=p.length,n=q.a,m=0;m<p.length;p.length===o||(0,H.H)(p),++m)k.push(n.nD(p[m]))
 l.a=[]
 p=n.dx
-if(p==="rank"||p==="rank_5")n.a.c.nB(p+"_fixed",n.cy,50,q.b).bx(0,new Q.a85(l,n,k),t.P)
+if(p==="rank"||p==="rank_5")n.a.c.nB(p+"_fixed",n.cy,25,q.b).bx(0,new Q.a85(l,n,k),t.P)
 else{l.a=k
 n.a7(new Q.a86(l,n,k))}return P.Y(null,r)}})
 return P.Z($async$$1,r)},
@@ -65351,7 +65351,7 @@ Q.a7u.prototype={
 $0:function(){var s=this.a
 s.a.d.AS(0,"previous_page")
 s.f=!0
-s.cy-=50
+s.cy-=25
 s.d=[]
 s.e=[]
 s.fg(!s.x)},
@@ -65366,7 +65366,7 @@ Q.a7t.prototype={
 $0:function(){var s=this.a
 s.a.d.AS(0,"next_page")
 s.f=!0
-s.cy+=50
+s.cy+=25
 s.d=[]
 s.e=[]
 s.fg(!s.x)},
