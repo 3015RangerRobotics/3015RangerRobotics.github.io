@@ -65042,7 +65042,7 @@ aN:function(){var s=this
 s.bi()
 s.a.d.AS(0,"app_open")
 s.a.c.vD().bx(0,new Q.a8f(s),t.P)},
-K:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=t.Ma,f=T.Hi(H.b([new T.c9(C.ys,new U.uX(new L.oj("images/logo.png"),60,h),h),L.cr("IRH Leaderboard",h,h,h,h,h,h,h)],g),C.bJ,C.hf,C.c6,h),e=new E.xC(H.b([E.akl("Game Manual Scoring"),E.akl("Fixed Scoring")],g),h),d=e.gBi().b
+K:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=t.Ma,f=T.Hi(H.b([new T.c9(C.ys,new U.uX(new L.oj("images/logo.png"),60,h),h),L.cr("IRH Leaderboard",h,h,h,h,h,h,h)],g),C.bJ,C.hf,C.c6,h),e=new E.xC(H.b([E.akl("Game Manual Scoring"),E.akl("Reduced Bounding Scoring")],g),h),d=e.gBi().b
 d=56+(d==null?0:d)
 s=T.qz(C.cO,H.b([i.Pb(),new E.xE(H.b([i.JU(!1),i.JU(!0)],g),h)],g),C.cL)
 r=L.cr("",h,h,h,h,h,h,h)
